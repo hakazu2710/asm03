@@ -1,0 +1,81 @@
+@media (max-width: 769px) and (min-width:426px) {
+
+    *{
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+
+    .container{
+        padding-left: 20px;
+    }
+
+    .container ul{
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    #item1{
+        border: 20px solid blue;
+    }
+
+    #item2{
+        border: 20px solid blue;
+        border-top: 0;
+    }
+
+    #item3{
+        border-top: 0;
+        border-right: 20px solid blue;
+        border-left: 20px solid blue;
+    }
+
+    #item4{
+        border: 20px solid blue;
+        border-bottom: 0;
+    }
+
+    #item5{
+        border: 20px solid blue;
+    }
+
+    h3{
+        border-bottom: 2px solid slategray;
+    }
+    /*css Goals*/
+
+    .goal-flag li{
+        display: flex;
+        gap: 30px;
+    }
+
+    .contaner-charter{
+        padding: 20px;
+        padding-left: 0;
+    }
+
+    /*css scopes*/
+    .scope-user{
+        display: flex;
+        gap: 30px;
+    }
+
+    /*css team*/
+    .charter li{
+        display: flex;
+        gap: 30px;
+    }
+
+    /*css primary*/
+    .primary-question li{
+        display: flex;
+        gap: 30px;
+    }
+
+    /*css timeline*/
+    .time-line li{
+        display: flex;
+        gap: 30px;
+    }
+
+}

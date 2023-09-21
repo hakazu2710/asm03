@@ -1,0 +1,226 @@
+@media (max-width: 426px) and (min-width:320px) {
+    #banner,nav-bar {
+        width: auto;
+    }
+    /*css banner*/
+    #banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-100%);
+        bottom: 0;
+        text-align: center;
+        color: #f7f7f7;
+        font-family: 'Inter',sans-serif;
+    }
+
+    .banner{
+        position: relative;
+    }
+
+    /*css navbar*/
+
+    #nav-bar .container{
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .btn i{
+        color:aqua;
+    }
+
+    /* xây dựng thông tin cá nhân */
+    #about .container{
+        margin: 0;
+        padding: 0;
+        max-width: 480px;
+        min-width:320px;
+    }
+    #target{
+        background-color: gainsboro;
+        
+    }
+    .tar p{
+        padding-top: 110px;
+        padding-bottom: 40px;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .tar{
+        padding-left: 10px;
+    }
+    .tar h1{
+        padding-left: 20px;
+    }
+    #target p{
+        margin-top: -60px;
+    }
+
+    #personal-info{
+        background-color:rgb(249, 251, 253);
+    }
+
+    #personal-info h1{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    .mt-40info {
+        margin-left: 0;
+        padding-bottom: 40px;
+        list-style: none;
+        margin-right: 50px;
+        padding-left: 20px;
+    }
+    /*Thông Tin Nghề Nghiệp */
+    #job-info .container{
+        font-family: sans-serif;
+        line-height: 1.5;
+    }
+    .job{
+        width: 300px;
+        border: 1px solid #333;
+        padding:20px;
+    }
+    
+    .sub{
+        margin-top: 20px;
+    }
+    
+    .info{
+        background-color: rgb(0, 119, 255);
+        border-radius: 6px;
+        padding: 3px 8px;
+        color: #f7f7f7;
+    }
+    
+    .job ul{
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        padding-top: 5px;
+    }
+    .job ul li{
+        width: 60px;
+    }
+    .job ul li i{
+        padding-top: 8px;
+        display: block;
+        height: 35px;
+        align-items: center;
+        padding-left:18px ;
+        border: 3px solid yellowgreen;
+        border-radius: 50%;
+    }
+    .icon{
+        width: 400px;
+    }
+    .w-6{
+        width: 60px;
+    }
+    .job-a{
+        display: flex;
+        gap: 50px;
+    }
+    .job h1{
+        margin-top: 23px;
+    }
+    .sub span{
+        background: #199cdb;
+        display: inline-block;
+        height: 3px;
+        margin-right:10px;
+        width: 45px;
+    }
+    #hobit{
+        height: 100px;
+    } 
+    /*Xây dựng phần chứng chỉ - giải thưởng*/
+    #certificate .container{
+        max-width: 480px;
+        min-width:320px;
+    }
+    .cer{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    #cer{
+        padding-left: 0;
+    }
+    .cer-title{
+        flex-basis: 50%;
+    }
+    #flex{
+        margin-right: 20px;
+        padding-right: 10px;
+        display: inline-block;
+    }
+    .flex-2{
+        border-top: 1px solid #d6c08d;
+        padding-top: 20px;
+    }
+    .flex-1{
+        border-top: 1px solid #d6c08d;
+    }
+    /*Xây dựng phần dự án*/
+    .pro img{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .pro-1{
+        border: 1px solid #ccc;
+        padding: 10px 10px;
+    }
+    .pro-2{
+        border: 1px solid #ccc;
+        padding: 10px 10px;
+        display: flex;
+        gap: 20px;
+        color: #ccc;
+    }
+    .pro-2 span{
+        background-color: blue;
+        padding: 10px 10px;
+        border-radius: 15px;
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .pro-2 table{
+        color: #d6c08d;
+    }
+    
+    table {
+        border-collapse: collapse;
+        color: #ccc;
+    }
+    .table, tr, td{
+        padding: 10px 10px;
+    }
+    .pro{
+        border: 1px solid #ccc;
+    }
+    .auther{
+        border-top: 1px solid #ccc;
+    }
+    /*Xây dựng phần Liên hệ*/
+    #footer .container {
+        justify-content: center;
+    }
+    #footer .container ul{
+        display: flex;
+        gap:40px;
+        list-style: none;
+        color: #ccc;
+        
+    }
+    #footer{
+        padding-top: 30px;
+    }
+    #footer .container ul li i{
+        color: #199cdb;
+        padding-right: 10px;
+        font-size: 23px;
+    }
+
+}
